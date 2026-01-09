@@ -1,0 +1,23 @@
+# Requirements for vulnerability test files
+# Vulnerable dependencies for Trivy SBOM detection
+Flask==0.12  # CVE-2018-1000656
+Django==1.2.1  # CVE-2019-19844
+requests==2.19.1  # CVE-2018-18074
+PyYAML==3.13  # CVE-2017-18342
+Jinja2==2.7.2  # CVE-2016-10745
+urllib3==1.24.1  # CVE-2019-11324
+pillow==6.2.1  # CVE-2019-19911
+paramiko==2.4.0  # CVE-2018-7750
+cryptography==2.3  # CVE-2018-10903
+sqlalchemy==1.2.17  # CVE-2019-7548
+numpy==1.16.0  # CVE-2019-6446
+Werkzeug==0.14.1  # CVE-2019-14806
+setuptools==39.1.0  # CVE-2018-20225
+pycrypto==2.6.1  # CVE-2013-7459
+lxml==4.2.4  # CVE-2018-19787
+pytz==2017.2  # CVE-2018-5995
+chardet==3.0.4  # CVE-2019-10905
+idna==2.6  # CVE-2017-14062
+pyopenssl==17.5.0  # CVE-2018-1000807
+simplejson==3.16.0  # CVE-2017-16516
+# ...add more as needed for 100 vulnerabilities
